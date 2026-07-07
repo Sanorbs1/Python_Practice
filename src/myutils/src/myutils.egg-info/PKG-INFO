@@ -1,0 +1,17 @@
+Metadata-Version: 2.4
+Name: myutils
+Version: 0.1.0
+Summary: Small utility functions for demonstration
+Author-email: Sandeep <sandeep@diggibyte.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: pytest>=8.0; extra == "dev"
+
+# myutils
+
+Demo library for packaging and using as a wheel.
+
+Functions:
+- add(a, b)
+- multiply(a, b)

@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61", "wheel"]
+build-backend = "setuptools.build_meta:__legacy__"
+
+[project]
+name = "myutils"
+version = "0.1.0"
+description = "Small utility functions for demonstration"
+readme = "Readme.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Sandeep", email = "sandeep@diggibyte.com" }
+]
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
